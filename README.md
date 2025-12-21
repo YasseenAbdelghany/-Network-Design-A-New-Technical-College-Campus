@@ -4,8 +4,6 @@
 This project presents the **design and implementation of a full technical college campus network** using **Cisco Packet Tracer**.  
 The network simulates a **real-world enterprise/university environment** consisting of multiple buildings, departments, users, and services, with a strong focus on **scalability, security, and fault tolerance**.
 
-The project was completed as part of the **Computer Networks course (CSE261)** during **Year 3 – Semester 5**.
-
 ---
 
 ## 🏢 Campus Structure
@@ -86,7 +84,7 @@ Inter-VLAN routing is handled using **multilayer switches (SVIs)**.
 ## 🔐 Security Implementation
 ### 🔹 Access Control Lists (ACLs)
 - **Extended ACL 100**:
-  - Restricts **SSH & Telnet access** to the **IT Department subnet (13.0.0.0/19) only**
+  - Restricts **SSH & Telnet access** to the **IT Department subnet (13.0.0.0/11) only**
 - **Standard ACL 10**:
   - Permits authorized IT subnet traffic
 
@@ -123,34 +121,6 @@ The implementation was verified using:
 - `show ip bgp`
 
 These commands confirm correct routing, VLAN configuration, security policies, and protocol operation.
-
----
-
-## 🛠 Tools & Technologies
-- Cisco Packet Tracer  
-- Routing Protocols: **OSPF, BGP**  
-- Switching: **VLANs, Multilayer Switching**  
-- Security: **ACLs, Secure SSH access**  
-
----
-
-## 🎓 Academic Information
-- **Course**: Computer Networks  
-- **Course Code**: CSE261  
-- **Year**: 3  
-- **Semester**: 5  
-
----
-
-## 🙏 Acknowledgments
-Special thanks to **my Doctor and Head TA** for their guidance, supervision, and continuous support throughout this project.
-
----
-
-## 📌 Author
-**Yasseen Ahmed**  
-Cybersecurity Engineering Student  
-Alamin International University  
 
 ---
 
